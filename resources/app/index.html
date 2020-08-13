@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: "GET, PUT, POST, DELETE, HEAD, OPTIONS"
+
+<!--<meta name="viewport" content="width=device-width, height=device-height">-->
+<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no">
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Media Player</title>
+		<link rel = "stylesheet" href = "CSS/index.css">
+		<link rel = "stylesheet" href = "CSS/playbar.css">
+		<link rel = "stylesheet" href = "CSS/playlist.css">
+		<link rel = "stylesheet" href = "CSS/artist.css">
+		<link rel = "stylesheet" href = "CSS/settings.css">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+	</head>
+	<body id = "Body">
+		<img id = "BackgroundPicture">		
+		<div id = "Header">
+			<img id = "NavBackward" src = "img/navbackward.png">
+			<img id = "NavForward" src = "img/navforward.png">
+		</div>
+		<div id = "Menu">
+			<img id = "Logo" src = "img/ducks2.png">
+			<div id = "ArtistsButton"></div>
+			<div id = "AdhocButton"></div>
+			<div id = "SettingsButton"></div>
+		</div>
+		<div id = "HTMLContent"></div>
+		<div id = "Playbar">
+			<div id = "SongInfo">
+				<img id = "SongInfoPic" src = "img/transparent.png">
+				<div id = "SongTitle"><div id = "SongTitleText"></div></div>
+				<div id = "SongDetails"><div id = "SongDetailsText"></div></div>
+			</div>
+			
+			<div id = "MusicPlayer">
+				<img class = "Button" id = "PlayButton" src = "img/play.png">
+				<img class = "Button" id = "PauseButton" src = "img/pause.png">
+				<img class = "Button" id = "BackwardButton" src = "img/backward.png">
+				<img class = "Button" id = "ForwardButton" src = "img/forward.png">
+				<img class = "Button" id = "Repeat0Button" src = "img/repeat0.png">
+				<img class = "Button" id = "Repeat1Button" src = "img/repeat1.png">
+				<img class = "Button" id = "Repeat2Button" src = "img/repeat2.png">
+				<img class = "Button" id = "Shuffle0Button" src = "img/shuffle0.png">
+				<img class = "Button" id = "Shuffle1Button" src = "img/shuffle1.png">
+				<div id = "Hp_slide"></div>
+				<div id = "Hp_range"></div>
+				<div id = "CurrentTime"><div id = "CurrentTimeCell">0:00</div></div>
+				<div id = "TotalTime"><div id = "TotalTimeCell">0:00</div></div>
+			</div>
+		</div>
+		<!-- Insert this line above script imports  -->
+		<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+		<script src = "javascript/jquery.js"></script>
+		<script src = "javascript/dataProcesser.js"></script>
+		<script src = "javascript/data.js"></script>
+		<script src = "javascript/audio.js"></script>
+		<script src = "javascript/resize.js"></script>
+		<script src = "javascript/stateManager.js"></script>
+		<script src = "javascript/index.js"></script>
+		
+		<!-- Insert this line after script imports -->
+		<script>if (window.module) module = window.module;</script>
+	</body>
+</html>

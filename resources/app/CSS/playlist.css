@@ -1,0 +1,109 @@
+#PlaylistInfo{
+	position: absolute;
+	overflow: hidden;
+	z-index: 1;
+}
+#Line{
+	position: absolute;
+	opacity: 0.3;
+}
+#PlaylistPic{
+	position: relative;
+}
+#PlaylistName{
+	position: absolute;
+	text-align: center;
+}
+#PlaylistArtist{
+	cursor: pointer;
+	color: #aaaaaa;
+	position: absolute;
+	text-align: center;
+}
+#PlaylistLength{
+	color: #aaaaaa;
+	position: absolute;
+	text-align: center;
+}
+#ShufflePlayImg{
+	position: absolute;
+	text-align: center;
+	opacity: 0.7;
+}
+#ShufflePlayText{
+	position: absolute;
+	text-align: center;
+}
+#Playlist{
+	overflow: auto;
+	position: absolute;
+	z-index: 1;
+}
+#Buffer{
+	position: relative;
+	opacity: 0.0;
+}
+.PlaylistItem{
+	position: relative;
+	overflow: hidden;
+}
+.PlaylistItemBackground{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	background: #777777;
+	opacity: 0.0;
+	transition: 0.2s;
+}
+.PlayButtonSmall{
+	position: absolute;
+	opacity: 0.7;
+	display: block;
+	width: auto;
+}
+.PauseButtonSmall{
+	position: absolute;
+	opacity: 0.7;
+	display: none;
+	width: auto;
+}
+.TextBox{
+	position: absolute;
+	top: 0;
+}
+.FileNameBox{
+	display: table;
+	table-layout: fixed;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+}
+.DetailsBox{
+	color:#cccccc;
+	display: table;
+	table-layout: fixed;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+}
+.FileNameBoxCell{
+	display: table-cell;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+.LengthBox{
+	display: table;
+	table-layout: fixed;
+	overflow: hidden;
+	position: absolute;
+}
+.LengthBoxCell{
+	display: table-cell;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+}

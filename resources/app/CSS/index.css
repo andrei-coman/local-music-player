@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:none;
+}
+::-webkit-scrollbar{
+	display: none;
+	width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+html{
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+body{
+    font-family: "Lato", sans-serif;
+	font-size:0.67708vw;
+	line-height:1.5em;
+	color:#fff;
+	background: #ffffff;
+	overflow: hidden;
+
+	scrollbar-width: none;
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+}
+#BackgroundPicture{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	
+	background: #222222;
+	/*height: 100vh;*/
+	width: 100vw;
+}
+#Header{
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	background:#111111;
+}
+#Logo{
+	position: absolute;
+}
+#ArtistsButton{
+	position: absolute;
+	overflow: hidden;
+}
+#ArtistsIcon{
+	position: absolute;
+	width: auto;
+}
+#AdhocButton{
+	position: absolute;
+	overflow: hidden;
+}
+#AdhocIcon{
+	position: absolute;
+	width: auto;
+}
+#SettingsButton{
+	position: absolute;
+	overflow: hidden;
+}
+#SettingsIcon{
+	position: absolute;
+	width: auto;
+}
+#NavBackward{
+	position: absolute;
+	z-index: 2;
+}
+#NavForward{
+	position: absolute;
+	z-index: 2;
+}
+#Menu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background:#000000;
+}
+#HTMLContent{
+	position: absolute;
+	overflow: auto;
+}

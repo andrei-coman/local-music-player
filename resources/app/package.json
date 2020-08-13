@@ -1,0 +1,21 @@
+{
+  "name": "media-player",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "audio-metadata": "^0.3.0",
+    "electron-packager": "^14.2.1",
+    "file-system": "^2.2.2",
+    "mp3-duration": "^1.1.0",
+    "node-id3": "^0.1.16"
+  },
+  "description": "",
+  "devDependencies": {
+    "electron": "^8.2.3"
+  }
+}

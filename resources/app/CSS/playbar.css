@@ -1,0 +1,118 @@
+#Playbar{
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	
+	width: 100vw;
+	background: #666666;
+}
+#SongInfo{
+	position: relative;
+	top: 0;
+	left: 0;
+	
+	background: #111111;
+}
+#SongInfoPic{
+	position: absolute;
+	cursor: pointer;
+}
+#SongTitle{
+	color:#ffffff;
+	display: table;
+	table-layout: fixed;
+	position: absolute;
+	left: 0;
+}
+#SongTitleText{
+	display: table-cell;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+#SongDetails{
+	color:#aaaaaa;
+	display: table;
+	table-layout: fixed;
+	position: absolute;
+	left: 0;
+	cursor: pointer;
+}
+#SongDetailsText{
+	display: table-cell;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+#MusicPlayer{
+	position: absolute;
+	top: 0;
+	background: #111111;
+}
+.Button{
+	position: absolute;	
+	opacity: 0.7;
+	display: block;
+}
+#PlayButton{
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+#PauseButton{
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#Repeat0Button{
+	display: block;
+}
+#Repeat1Button{
+	display: none;
+}
+#Repeat2Button{
+	display: none;
+}
+#Shuffle0Button{
+	display: block;
+}
+#Shuffle1Button{
+	display: none;
+}
+#Hp_slide{
+	position: absolute;
+    background: #666666;
+}
+#Hp_range{
+	position: absolute;
+    background: #ff0000;
+}
+#CurrentTime{
+	color:#777777;
+	text-align: right;
+	display: table;
+	overflow: hidden;
+	position: absolute;
+}
+#CurrentTimeCell{
+	display: table-cell;
+	vertical-align: middle;
+}
+#TotalTime{
+	color:#777777;
+	margin: auto;
+	text-align: left;
+	display: table;
+	overflow: hidden;
+	position: absolute;
+}
+#TotalTimeCell{
+	display: table-cell;
+	vertical-align: middle;
+}

@@ -1,0 +1,23 @@
+#SubmitButton{
+	position: absolute;
+}
+#SubmitButtonBackground{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	background-color: #ff0000;
+	transition: 0.2s;
+}
+#BlurImg{
+	position: absolute;
+	background-color: #000000;
+	opacity: 0.5;
+	display: none;
+	z-index: 1;
+}
+#LoadingGif{
+	position: absolute;
+	display: none;
+	z-index: 2;
+}

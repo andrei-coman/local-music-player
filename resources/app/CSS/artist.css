@@ -1,0 +1,51 @@
+#ArtistBigPic{
+	position: absolute;
+	overflow: hidden;
+	
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+#ArtistBigPicInterior{
+	position: absolute;
+}
+#ArtistName{
+	display: table;
+	position: absolute;
+	opacity: 1.0;
+	color: #eeeeee;
+}
+#ArtistNameText{
+	display: table-cell;
+	vertical-align: middle;
+	word-wrap: break-word;
+}
+#AlbumItemContainer{
+	position: absolute;
+}
+.AlbumItem{
+	position: absolute;
+	background: rgba(255, 255, 255, 0);
+	overflow: hidden;
+	perspective: 1000px;
+	transition: 0.2s;
+}
+.AlbumPic{
+	position: relative;
+	overflow: hidden;
+	transform: rotateY(0deg);
+}
+.AlbumTitle{
+	color:#ffffff;
+	display: table;
+	table-layout: fixed;
+	position: absolute;
+	left: 0;
+}
+.AlbumTitleText{
+	display: table-cell;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+}
